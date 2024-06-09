@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  padding-top: 8px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34.13px;
+}
