@@ -1,8 +1,11 @@
-import styles from './Tasks.module.css'
+import Task from '@/components/Task/Task'
+import styles from './Tasks.module.scss'
+
+
 const Tasks = () => {
   return (
     <div className={styles.main}>
-      <div className={styles.title}>Tasks</div>
+      <Task/>
     </div>
   )
 }

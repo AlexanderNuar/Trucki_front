@@ -1,8 +1,11 @@
-import styles from './Friends.module.css'
+import Frens from '@/components/Frens/Frens'
+import styles from './Friends.module.scss'
+
+
 const Friends = () => {
   return (
     <div className={styles.main}>
-      <div className={styles.title}>Frens</div>
+      <Frens/>
     </div>
   )
 }

@@ -1,0 +1,30 @@
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+    margin-bottom: 38px;
+}
+
+.image{
+    border-radius: 100%;
+    max-height: 120px;
+    max-width: 120px;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: -10px 4px 24px 0 rgba(255, 110, 249, 0.25);
+}
+
+.user h2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.user h1{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.06em;
+    color: #fff;
+}

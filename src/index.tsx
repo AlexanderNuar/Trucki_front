@@ -4,7 +4,7 @@ import { mockTelegramEnv, parseInitData } from '@tma.js/sdk-react'
 import { Root } from '@/components/Root'
 
 import '@telegram-apps/telegram-ui/dist/styles.css'
-import './index.css'
+import './index.scss'
 import './fonts/Montserrat-Regular.ttf'
 
 // This line of code allows us to safely launch the application even outside

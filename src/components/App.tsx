@@ -50,14 +50,16 @@ export const App: FC = () => {
     <AppRoot
       appearance={
         // miniApp.isDark
+        // eslint-disable-next-line no-constant-condition
         true ? 'dark' : 'light'
       }
+      className='container app'
       platform={['macos', 'ios'].includes(lp.platform) ? 'ios' : 'base'}
     >
       <Router location={location} navigator={reactNavigator}>
         <Routes>
           {routes.map((route) => (
-            <Route key={route.path} {...route} />
+              <Route key={route.path} {...route} />
           ))}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

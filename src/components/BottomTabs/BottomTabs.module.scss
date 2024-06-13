@@ -1,0 +1,38 @@
+.nav{
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 9px;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.btn {
+  div{
+    svg{
+      fill: white;
+    }
+  }
+}
+
+.activeBtn {
+  div{
+    svg{
+      fill: #ec9eff;
+    }
+  }
+}
+
+.btn div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
